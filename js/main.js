@@ -7,9 +7,9 @@
     function showNextQuote() {
         ++quoteIndex;
         quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(2000)
-            .delay(2000)
-            .fadeOut(2000, showNextQuote);
+            .fadeIn(1200)
+            .delay(12000)
+            .fadeOut(1200, showNextQuote);
     }
     
     showNextQuote();
