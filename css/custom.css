@@ -53,7 +53,11 @@ img {
 
 /***** Header *****/
 
+/* Hero banner */
 
+.hero {
+  background-image: url("img/hero-bg.jpg");
+}
 
 /***** Content *****/
 
