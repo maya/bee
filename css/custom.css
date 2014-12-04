@@ -15,6 +15,35 @@ body {
   margin: 0 auto;
 }
 
+/* make a grid */
+
+[class*='col-'] {
+  float: left;
+}
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.grid {
+  margin-left: -10px;
+  margin-right: -10px;  
+}
+[class*='col-'] {
+  padding-left: 10px;
+  padding-right: 10px;
+}    
+.col-1-2 {
+  width: 50%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
 /***** Header *****/
 
 
@@ -39,5 +68,8 @@ body {
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (max-width: 375px) {
-  /* Style adjustments for viewports that meet the condition */   
+  /* Style adjustments for viewports that meet the condition */
+  [class*='col-'] {
+    width: 100%;
+  }    
 }
