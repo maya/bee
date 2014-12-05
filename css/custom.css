@@ -70,14 +70,14 @@ section {
 /***** Header *****/
 
 .header {
-  border-bottom: 1px solid rgba(255,255,255.1);
+  border-bottom: 1px solid rgba(255,255,255,.1);
   padding-bottom: 57px;
 }
 
 /* Hero banner */
 
 .hero {
-  background: #000 url("img/hero-bg.jpg") no-repeat fixed center; 
+  background: #000 url("../img/hero-bg.jpg") no-repeat fixed center; 
   padding-bottom: 241px;
   padding-top: 53px;
 }
@@ -190,7 +190,9 @@ section {
   display: none;
   font-size: 1em;
 }
-
+.testimonial-bottom {
+  padding-top: 40px;
+}
 /***** Footer *****/
 .social-links {
   float: left;
