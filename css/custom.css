@@ -20,6 +20,7 @@ img {
 h2 {
   font-size: 32px;
   font-weight: normal;
+  margin-bottom: 0;
 }
 p {
   color: #54545c;
@@ -141,14 +142,21 @@ section {
 .team-name, team-title {
   font-weight: bold;
   font-style: italic;
+  margin-bottom: 0;
+  margin-top: 5px;
 }
 .team-role {
   font-weight: light;
   font-style: italic;
+  margin: 0;
 }
 .md-content img {
     float: left;
     padding-right: 20px;
+}
+.team .all-caps {
+  margin-top: 0;
+  text-transform: uppercase;
 }
 /* News section */
 .news {
@@ -165,8 +173,13 @@ section {
 .team, .news {
   margin-bottom: -24px;
 }
+
+/* Contact section */
 .contact {
   background-color: #d9d9d9;
+}
+.contact h2 {
+  margin-bottom: .83em;
 }
 /* Testimonials section */
 .testimonials {
