@@ -25,8 +25,8 @@ p {
   color: #54545c;
   font-size: 14px;
 }
-.center {
-  text-align: center;
+a:hover {
+  opacity: .8;
 }
 
 /* make a grid */
@@ -128,10 +128,30 @@ section {
 .team {
   background-color: #f2f2f2;
 }
-
+.md-trigger:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+.team .col-1-3 {
+  text-align: center;
+}
+.team-name {
+  font-weight: bold;
+  font-style: italic;
+}
+.team-role {
+  font-weight: light;
+  font-style: italic;
+}
 /* News section */
 .news {
   background-color: #e6e6e6;
+}
+.excerpt {
+  font-size: 1em;
+}
+.news-article {
+  padding: 0 10%;
 }
 /* extra white space appearing between sections - temp fix */
 .team, .news {
