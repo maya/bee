@@ -17,6 +17,7 @@ img {
 }
 
 /* Typography */
+
 h2 {
   font-size: 32px;
   font-weight: normal;
@@ -26,11 +27,18 @@ p {
   color: #54545c;
   font-size: 14px;
 }
+a, .md-trigger {
+  -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
 a:hover {
   opacity: .8;
 }
 
-/* make a grid */
+/* Grid */
 
 [class*='col-'] {
   float: left;
@@ -107,11 +115,13 @@ section {
 .btn-outline {
   border: 3px solid #000;
 }
+
 /***** Content *****/
 
 .team .first, .contact .first {
   text-align: center;
 }
+
 /* About section */
 
 .tubemogal-container {
@@ -128,7 +138,9 @@ section {
   float: right;
   width: 33%;
 }
+
 /* Team section */
+
 .team {
   background-color: #f2f2f2;
 }
@@ -158,7 +170,9 @@ section {
   margin-top: 0;
   text-transform: uppercase;
 }
+
 /* News section */
+
 .news {
   background-color: #e6e6e6;
 }
@@ -169,19 +183,24 @@ section {
 .news-article {
   padding: 0 10%;
 }
+
 /* extra white space appearing between sections - temp fix */
+
 .team, .news {
   margin-bottom: -24px;
 }
 
 /* Contact section */
+
 .contact {
   background-color: #d9d9d9;
 }
 .contact h2 {
   margin-bottom: .83em;
 }
+
 /* Testimonials section */
+
 .testimonials {
  background-color: #ffc104; 
 }
@@ -193,7 +212,9 @@ section {
 .testimonial-bottom {
   padding-top: 40px;
 }
+
 /***** Footer *****/
+
 .social-links {
   float: left;
   padding-top: 10px;
@@ -201,7 +222,6 @@ section {
 .copyright {
   float: right;
 }
-
 
 /* ==========================================================================
    Media Queries for Responsive Design
