@@ -135,13 +135,17 @@ section {
 .team .col-1-3 {
   text-align: center;
 }
-.team-name {
+.team-name, team-title {
   font-weight: bold;
   font-style: italic;
 }
 .team-role {
   font-weight: light;
   font-style: italic;
+}
+.md-content img {
+    float: left;
+    padding-right: 20px;
 }
 /* News section */
 .news {
