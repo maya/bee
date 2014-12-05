@@ -17,6 +17,17 @@ img {
 }
 
 /* Typography */
+h2 {
+  font-size: 32px;
+  font-weight: normal;
+}
+p {
+  color: #54545c;
+  font-size: 14px;
+}
+.center {
+  text-align: center;
+}
 
 /* make a grid */
 
@@ -51,12 +62,15 @@ img {
   padding: 0 20px;
   position: relative;
 }
+section {
+  padding: 85px 0;
+}
 
 /***** Header *****/
 
 .header {
   border-bottom: 1px solid rgba(255,255,255.1);
-  padding: 53px 0 57px 0;
+  padding-bottom: 57px;
 }
 
 /* Hero banner */
@@ -64,6 +78,7 @@ img {
 .hero {
   background: #000 url("img/hero-bg.jpg") no-repeat fixed center; 
   padding-bottom: 241px;
+  padding-top: 53px;
 }
 .hero-content {
   text-align: center;
@@ -76,29 +91,73 @@ img {
   padding-bottom: 47px;
   padding-top: 129px;
 }
-.btn-yellow {
-  background-color: #ffc303;
+.btn {
   border-radius: 25px;
   color: #000;
   font-size: 13px;
   font-weight: bold;
   padding: 15px 27px;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: uppercase;  
 }
-
-
-
+.btn-yellow {
+  background-color: #ffc303;
+}
+.btn-outline {
+  border: 3px solid #000;
+}
 /***** Content *****/
 
-/* Testimonials */
+.team .first, .contact .first {
+  text-align: center;
+}
+/* About section */
+
+.tubemogal-container {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  margin-bottom: 50px;
+  padding-bottom: 53px;
+  width: 80%;
+}
+
+.tubemogal-logo {
+  padding-bottom: ;
+}
+
+/* Team section */
+.team {
+  background-color: #f2f2f2;
+}
+
+/* News section */
+.news {
+  background-color: #e6e6e6;
+}
+/* extra white space appearing between sections - temp fix */
+.team, .news {
+  margin-bottom: -24px;
+}
+.contact {
+  background-color: #d9d9d9;
+}
+/* Testimonials section */
+.testimonials {
+ background-color: #ffc104; 
+}
 .quotes {
+  color: #000;
   display: none;
+  font-size: 1em;
 }
 
 /***** Footer *****/
-
-
+.social-links {
+  float: left;
+  padding-top: 10px;
+}
+.copyright {
+  float: right;
+}
 
 
 /* ==========================================================================
